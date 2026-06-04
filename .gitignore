@@ -21,6 +21,16 @@ build/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
+agent_*.log
+agent_*.txt
+dev.log
+
+# Call transcripts — contain real customer PII
+transcripts/
+
+# Runtime artifacts
+agents.json
 
 # IDE settings
 .vscode/
